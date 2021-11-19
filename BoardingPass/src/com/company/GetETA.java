@@ -4,10 +4,6 @@ import java.util.Random;
 
 public class GetETA {
 
-    //I guess for the ETA we could just do a random number with a range of the departure time and like a 5 hour max
-    //Since theres not really any criteria for it
-    //So the range would be this HHMM like if the user were to type in 10:30
-
     public String getArrivalTime(String Departure){
 
         Random rTime = new Random();

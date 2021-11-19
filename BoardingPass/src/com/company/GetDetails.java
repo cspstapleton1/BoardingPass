@@ -3,7 +3,7 @@ package com.company;
 
 public class GetDetails {
 
-    private String name, email, phNumber, gender, date, origin, dest, departure, arrival, example;
+    private String name, email, phNumber, gender, date, origin, dest, departure, arrival;
     private int age, price, id;
 
     public String getName(){return name;}
@@ -39,27 +39,7 @@ public class GetDetails {
     public int getId(){return id;}
     public void setId(int newId){id = newId;}
 
-
     public String getArrival(){return arrival;}
     public void setArrival(String newArrival){arrival = newArrival;}
 
-    /*
-    System.out.println("Welcome to Pyramid Airlines please provide me with your name to get started!");
-    String name = scan.nextLine();
-        System.out.println("Email:");
-    String email = scan.nextLine();
-        System.out.println("Phone number:");
-    String phNumber = scan.nextLine();
-        System.out.println("Gender (M or F):");
-    String gender = scan.nextLine();
-        System.out.println("Age:");
-    int age = scan.nextInt();
-        System.out.println("Date (MM-DD-YY):");
-    String date = scan.next();
-        System.out.println("Destination:");
-    String dest = scan.next();
-        System.out.println("Departure time (HH-MM):");
-    String departure = scan.next();
-
-    */
 }

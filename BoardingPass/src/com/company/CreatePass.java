@@ -11,12 +11,6 @@ public class CreatePass {
     public void MakePass(int IDNum, String Date, String Origin, String Destination, String ETA,
                            String departTime, String Name, String Email, String PhoneNum, String Gender, int Age, int Price){
 
-        //The application should generate a boarding pass ticket using the boarding pass details.
-        // The generated ticket should contain the following information:
-        //•	Boarding Pass Number, Date, Origin, Destination, Estimated time of arrival (ETA), Departure Time
-        //•	Name, Email, Phone Number, Gender, Age
-        //•	Total Ticket Price
-
         File ticketFile = new File("C:\\GenSpark\\TeamProject\\GitFork\\BoardingPass\\BoardingPass\\src\\com\\Tickets.txt");
 
         String thePass = "ID #: " + IDNum + "  Name: " + Name + "  Gender: " + Gender + "  Age: " + Age + "  " + "Date: " + Date +
